@@ -1,0 +1,8 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>"..\..\TestContentGame\bin\x86\Debug\*.xnb|..\..\TestContentGame\Text\*.txt" ..\..\TestContentGame\bin\x86\Debug\Content.zip ..\..\TestContentGame\ResourceId.cs TestContentGame ResourceId ..\..\TestContentGame\Audio\sound.xap</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartArguments>"C:\DEV\Projects\Game\XNA\ProtoType\bin\x86\debug\resources\*.xnb|C:\DEV\Projects\Game\XNA\ProtoType\Resources\*.ogg|C:\DEV\Projects\Game\XNA\ProtoType\Resources\*.txt" C:\DEV\Projects\Game\XNA\ProtoType\bin\x86\debug\Content.zip ResourceId.cs ProtoType ResourceId</StartArguments>
+  </PropertyGroup>
+</Project>
