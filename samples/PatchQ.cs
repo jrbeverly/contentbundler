@@ -1,20 +1,3 @@
-# ContentBundler
-
-## Summary
-
-A proof of concept for generation of strongly typed paths using the Roslyn Framework.
-
-## Getting Started
-
-ContentBundler is provided as an command line application, originally adapted from an XNA Content Compiler. The new version greatly simplifies the code requirements, leveraging Roslyn for the code generation. An example is available from [test/assets](test/assets), which will generate the result [PatchQ.cs]
-
-```bash
-./ContentBundler.exe --archive patch-Q.zip --file PatchQ.cs --class PatchQ --namespace PlatformerGame.Assets
-```
-
-This will then output a series of static classes.
-
-```csharp
 namespace PlatformerGame.Assets
 {
     using System;
@@ -54,10 +37,3 @@ namespace PlatformerGame.Assets
         }
     }
 }
-```
-
-## Acknowledgements
-
-The project icon is retrieved from [the Noun Project](docs/icon/icon.json). The original source material has been altered for the purposes of the project. The icon is used under the terms of the [Public Domain](https://creativecommons.org/publicdomain/zero/1.0/).
-
-The project icon is by [jeanbaptiste sautelet from the Noun Project](https://thenounproject.com/term/crane/102655/).
