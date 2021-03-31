@@ -1,0 +1,20 @@
+slug: contentbundler
+description: A proof of concept for generation of strongly typed paths using the Roslyn Framework.
+project: uwaterloo
+namespace:
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2017
+topics: |-
+  [
+    "roslyn",
+    "strongly-typed",
+    "code-generation",
+    "prototype",
+    "experiment",
+    "poc",
+    "proof-of-concept"
+  ]
